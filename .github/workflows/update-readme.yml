@@ -20,7 +20,7 @@ jobs:
           # Calculate Beijing time (UTC+8)
           TIMESTAMP=$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S UTC+8')
           # Use sed to replace the timestamp line in README.md
-          sed -i "s|> 🌍 The last update was on .*|> 🌍 The last update was on $TIMESTAMP.|" README.md
+          sed -i "s|- 🌍 The last update was on .*|- 🌍 The last update was on $TIMESTAMP.|" README.md
           echo "Updated timestamp to: $TIMESTAMP"
       
       - name: Commit and push changes
