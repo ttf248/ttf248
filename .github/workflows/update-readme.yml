@@ -2,7 +2,7 @@ name: Update README every day
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 每天 UTC 时间 0 点运行
+    - cron: "0 16 * * *"  # 每天北京时间 0 点运行
   workflow_dispatch:     # 也可以手动触发
 
 jobs:
@@ -11,11 +11,25 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-      - name: Update README
+      
+      - name: Update README timestamp
         run: |
-          touch README.md
+          # Get current UTC date and time
+          current_date=$(date -u '+%Y-%m-%d %H:%M:%S')
+          # Use sed to find the line and replace the timestamp
+          # Note: Using a different delimiter '#' for sed because the date contains '/' which conflicts with the default '/' delimiter
+          sed -i "s#^> 🌍 The last update was on .* UTC+8.$#> 🌍 The last update was on ${current_date} UTC+8.#" README.md
+      
+      - name: Commit and push changes
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Add changes, commit only if there are changes, and push
           git add README.md
-          git commit -m "chore: update README timestamp" || echo "No changes"
-          git push
+          # Check if there are staged changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update README timestamp to $(date -u '+%Y-%m-%d %H:%M:%S')"
+            git push
+          fi

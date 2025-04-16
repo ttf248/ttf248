@@ -1,6 +1,7 @@
 # 👋 Hello there! I'm tianlong.xiang
 
 ## 🧠 About Me
+
 - 💻 I love building things with C++, Go, and Python
 - 🌱 Currently learning advanced distributed systems
 - 🚀 Always exploring new technologies
@@ -25,4 +26,6 @@
 ## ⏱️ Auto-updated Daily
 
 > 🕒 This profile README updates daily using GitHub Actions!
-
+> 🌍 The last update was on 2025-04-16 00:00:00 UTC+8.
+> ⏳ The next update will be in 24 hours.
+> 🔄 If you want to see the latest stats, just refresh this page!
