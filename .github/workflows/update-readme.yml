@@ -17,10 +17,11 @@ jobs:
       
       - name: Update README timestamp
         run: |
-          # Get current UTC date and time
-          current_date=$(date -u '+%Y-%m-%d %H:%M:%S')
-          # Use sed to find the line and replace the timestamp
-          sed -i "s#^> 🌍 The last update was on .* UTC+8.$#> 🌍 The last update was on ${current_date} UTC+8.#" README.md
+          # Calculate Beijing time (UTC+8)
+          TIMESTAMP=$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S UTC+8')
+          # Use sed to replace the timestamp line in README.md
+          sed -i "s|> 🌍 The last update was on .*|> 🌍 The last update was on $TIMESTAMP.|" README.md
+          echo "Updated timestamp to: $TIMESTAMP"
       
       - name: Commit and push changes
         run: |
