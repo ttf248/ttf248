@@ -10,7 +10,7 @@
 
 ## 📊 GitHub Stats
 
-<img align="" height="137px" src="https://github-readme-stats-chi-one-17.vercel.app/api?username=ttf248&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0000&text_color=8A919F&locale=cn" /> <img align="" height="137px" src="https://github-readme-stats-chi-one-17.vercel.app/api/top-langs/?username=ttf248&hide_title=true&hide=html&layout=compact&bg_color=0000&text_color=8A919F&locale=cn" />![]()
+<img align="" height="137px" src="https://github-readme-stats-chi-one-17.vercel.app/api?username=ttf248&hide_title=true&show_icons=true&include_all_commits=true&count_private=true&line_height=21&bg_color=0000&text_color=8A919F&locale=cn" /> <img align="" height="137px" src="https://github-readme-stats-chi-one-17.vercel.app/api/top-langs/?username=ttf248&hide_title=true&hide=html&layout=compact&bg_color=0000&text_color=8A919F&locale=cn" />![]()
 
 ---
 
