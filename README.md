@@ -13,15 +13,13 @@
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=ttf248&show_icons=true&theme=onedark&count_private=true&hide=stars" />
+      <img src="https://github-readme-stats.vercel.app/api?username=ttf248&show_icons=true&theme=gruvbox&count_private=true&hide=stars" />
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ttf248&layout=compact&theme=onedark" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ttf248&layout=compact&theme=gruvbox" />
     </td>
   </tr>
 </table>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=ttf248&theme=onedark&hide_border=true)](https://git.io/streak-stats)
 
 ---
 
