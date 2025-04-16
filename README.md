@@ -25,7 +25,7 @@
 
 ## ⏱️ Auto-updated Daily
 
-> 🕒 This profile README updates daily using GitHub Actions!
-> 🌍 The last update was on 2025-04-16 00:00:00 UTC+8.
-> ⏳ The next update will be in 24 hours.
-> 🔄 If you want to see the latest stats, just refresh this page!
+- 🕒 This profile README updates daily using GitHub Actions!
+- 🌍 The last update was on 2025-04-16 00:00:00 UTC+8.
+- ⏳ The next update will be in 24 hours.
+- 🔄 If you want to see the latest stats, just refresh this page!
