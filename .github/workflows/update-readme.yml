@@ -1,6 +1,9 @@
-name: Update README every day
+name: Daily README Update
 
 on:
+  push:
+    branches:
+      - main  # 监听 main 分支的推送事件
   schedule:
     - cron: "0 16 * * *"  # 每天北京时间 0 点运行
   workflow_dispatch:     # 也可以手动触发
