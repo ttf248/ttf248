@@ -15,6 +15,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
       
+      - name: Update GitHub Stats timestamp
+        run: |
+          # Calculate current timestamp in seconds since epoch
+          TIMESTAMP=$(date +%s)
+          # Update GitHub Stats URLs timestamp
+          sed -i "s/t=[0-9]\+/t=$TIMESTAMP/g" README.md
+          echo "Updated GitHub Stats URLs timestamp to: $TIMESTAMP"
+
       - name: Update README timestamp
         run: |
           # Calculate Beijing time (UTC+8)
