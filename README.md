@@ -10,7 +10,7 @@
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats-chi-one-17.vercel.app/api?username=ttf248&hide_title=true&show_icons=true&include_all_commits=true&count_private=true&line_height=1744863631&bg_color=0000&text_color=8A919F&locale=cn&t=1744863631)
+![GitHub Stats](https://github-readme-stats-chi-one-17.vercel.app/api?username=ttf248&hide_title=true&show_icons=true&include_all_commits=true&count_private=true&bg_color=0000&text_color=8A919F&locale=cn&t=1744863631)
 ![Top Languages](https://github-readme-stats-chi-one-17.vercel.app/api/top-langs/?username=ttf248&hide_title=true&hide=html&layout=compact&bg_color=0000&text_color=8A919F&locale=cn&t=1744863631)
 
 ---
