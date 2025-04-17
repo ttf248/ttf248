@@ -3,8 +3,8 @@
 ## 🧠 About Me
 
 - 💻 I love building things with C++, Go, and Python
-- 🌱 Currently learning advanced distributed systems
 - 🚀 Always exploring new technologies
+- 🌱 Recently, I've been trying to incorporate more AI into my work
 
 ---
 
