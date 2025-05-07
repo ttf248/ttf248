@@ -23,7 +23,7 @@ jobs:
 
       - name: Mirror to CNB
         env:
-          GITEE_TOKEN: ${{ secrets.CNB_PAT }}
+          CNB_TOKEN: ${{ secrets.CNB_PAT }}
         run: |
-          git remote add cnb https://oauth2:${GITEE_TOKEN}@gitee.com/ttf248/ttf248.git
+          git remote add cnb https://oauth2:${CNB_TOKEN}@cnb.cool/ttf248/ttf248.git
           git push --mirror cnb
