@@ -1,25 +1,29 @@
-name: Sync Repository
+name: Sync to Other Platforms
 
 on:
   push:
     branches:
-      - main  # 根据需要修改分支名称
+      - main  # 你可以改成其他分支
     schedule:
-      - cron: "5 16 * * *"  # 每天北京时间 0 点运行
-    workflow_dispatch:      # 也可以手动触发
+      - cron: "0 16 * * *"  # 每天北京时间 0 点运行
+    workflow_dispatch:     # 也可以手动触发
 
 jobs:
-  repo-sync:
+  sync:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
-      - name: Sync to Destination Repository
-        uses: repo-sync/github-sync@v2
-        with:
-          source_repo: "https://cnb.cool/ttf248/ttf248.git"
-          source_branch: "main"
-          destination_branch: "main"
-          github_token: ${{ secrets.CNB_PAT }}
+    steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v3
+
+      - name: Set Git config
+        run: |
+          git config --global user.name "tianlong.xiang"
+          git config --global user.email "tianlong.xiang@foxmail.com"
+
+      - name: Mirror to CNB
+        env:
+          GITEE_TOKEN: ${{ secrets.CNB_PAT }}
+        run: |
+          git remote add cnb https://oauth2:${GITEE_TOKEN}@gitee.com/ttf248/ttf248.git
+          git push --mirror cnb
