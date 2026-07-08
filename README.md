@@ -10,8 +10,8 @@
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats-chi-one-17.vercel.app/api?username=ttf248&hide_title=true&show_icons=true&hide=contribs&line_height=24&include_all_commits=true&count_private=true&bg_color=0000&text_color=8A919F&locale=cn&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&timstamp=1783446981)
-![Top Languages](https://github-readme-stats-chi-one-17.vercel.app/api/top-langs/?username=ttf248&hide_title=true&hide=html,javascript,css&layout=compact&bg_color=0000&text_color=8A919F&locale=cn&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&timstamp=1783446981)
+![GitHub Stats](https://github-readme-stats-chi-one-17.vercel.app/api?username=ttf248&hide_title=true&show_icons=true&hide=contribs&line_height=24&include_all_commits=true&count_private=true&bg_color=0000&text_color=8A919F&locale=cn&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&timstamp=1783531547)
+![Top Languages](https://github-readme-stats-chi-one-17.vercel.app/api/top-langs/?username=ttf248&hide_title=true&hide=html,javascript,css&layout=compact&bg_color=0000&text_color=8A919F&locale=cn&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&timstamp=1783531547)
 
 ---
 
@@ -28,6 +28,6 @@
 ## ⏱️ Auto-updated Daily
 
 - 🕒 This profile README updates daily using GitHub Actions!
-- 🌍 The last update was on 2026-07-08 01:56:21 UTC+8.
+- 🌍 The last update was on 2026-07-09 01:25:47 UTC+8.
 - ⏳ The next update will be in 24 hours.
 - 🔄 If you want to see the latest stats, just refresh this page!
