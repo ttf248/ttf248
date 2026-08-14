@@ -11,7 +11,7 @@
 ## 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats-chi-one-17.vercel.app/api?username=ttf248&hide_title=true&show_icons=true&hide=contribs&line_height=24&include_all_commits=true&count_private=true&bg_color=0000&text_color=8A919F&locale=cn&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&timstamp=1746608356)
-![Top Languages](https://github-readme-stats-chi-one-17.vercel.app/api/top-langs/?username=ttf248&hide_title=true&hide=html,javascript,css&layout=compact&bg_color=0000&text_color=8A919F&locale=cn&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&timstamp=1746608356)
+![Top Languages](https://github-readme-stats-chi-one-17.vercel.app/api/top-langs/?username=ttf248&hide_title=true&hide=&layout=compact&bg_color=0000&text_color=8A919F&locale=cn&role=OWNER,COLLABORATOR,ORGANIZATION_MEMBER&timstamp=1746608356)
 
 ---
 
